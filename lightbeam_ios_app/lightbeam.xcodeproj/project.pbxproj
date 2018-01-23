@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C7928561ECA08460045651C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7928551ECA08460045651C /* AppDelegate.swift */; };
+		5C7928581ECA08460045651C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7928571ECA08460045651C /* ViewController.swift */; };
+		5C79285B1ECA08460045651C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7928591ECA08460045651C /* Main.storyboard */; };
+		5C79285D1ECA08460045651C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C79285C1ECA08460045651C /* Assets.xcassets */; };
+		5C7928601ECA08460045651C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C79285E1ECA08460045651C /* LaunchScreen.storyboard */; };
+		5C7928691ECA08640045651C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7928681ECA08640045651C /* MapKit.framework */; };
+		5C79286B1ECA3CC40045651C /* Beaches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79286A1ECA3CC40045651C /* Beaches.swift */; };
+		5C79286D1ECA41720045651C /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79286C1ECA41720045651C /* VCMapView.swift */; };
+		5C79286F1ECA67490045651C /* mapstogpx20170515_224601.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5C79286E1ECA67490045651C /* mapstogpx20170515_224601.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C7928521ECA08460045651C /* lightbeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightbeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7928551ECA08460045651C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C7928571ECA08460045651C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C79285A1ECA08460045651C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C79285C1ECA08460045651C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C79285F1ECA08460045651C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C7928611ECA08460045651C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7928681ECA08640045651C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5C79286A1ECA3CC40045651C /* Beaches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beaches.swift; sourceTree = "<group>"; };
+		5C79286C1ECA41720045651C /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		5C79286E1ECA67490045651C /* mapstogpx20170515_224601.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mapstogpx20170515_224601.gpx; path = ../mapstogpx20170515_224601.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C79284F1ECA08460045651C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7928691ECA08640045651C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C7928491ECA08460045651C = {
+			isa = PBXGroup;
+			children = (
+				5C79286E1ECA67490045651C /* mapstogpx20170515_224601.gpx */,
+				5C7928541ECA08460045651C /* lightbeam */,
+				5C7928531ECA08460045651C /* Products */,
+				5C7928671ECA08640045651C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C7928531ECA08460045651C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C7928521ECA08460045651C /* lightbeam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C7928541ECA08460045651C /* lightbeam */ = {
+			isa = PBXGroup;
+			children = (
+				5C7928551ECA08460045651C /* AppDelegate.swift */,
+				5C7928571ECA08460045651C /* ViewController.swift */,
+				5C79286C1ECA41720045651C /* VCMapView.swift */,
+				5C79286A1ECA3CC40045651C /* Beaches.swift */,
+				5C7928591ECA08460045651C /* Main.storyboard */,
+				5C79285C1ECA08460045651C /* Assets.xcassets */,
+				5C79285E1ECA08460045651C /* LaunchScreen.storyboard */,
+				5C7928611ECA08460045651C /* Info.plist */,
+			);
+			path = lightbeam;
+			sourceTree = "<group>";
+		};
+		5C7928671ECA08640045651C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C7928681ECA08640045651C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C7928511ECA08460045651C /* lightbeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C7928641ECA08460045651C /* Build configuration list for PBXNativeTarget "lightbeam" */;
+			buildPhases = (
+				5C79284E1ECA08460045651C /* Sources */,
+				5C79284F1ECA08460045651C /* Frameworks */,
+				5C7928501ECA08460045651C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lightbeam;
+			productName = lightbeam;
+			productReference = 5C7928521ECA08460045651C /* lightbeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C79284A1ECA08460045651C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Trisha Suri";
+				TargetAttributes = {
+					5C7928511ECA08460045651C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C79284D1ECA08460045651C /* Build configuration list for PBXProject "lightbeam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C7928491ECA08460045651C;
+			productRefGroup = 5C7928531ECA08460045651C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C7928511ECA08460045651C /* lightbeam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C7928501ECA08460045651C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7928601ECA08460045651C /* LaunchScreen.storyboard in Resources */,
+				5C79285D1ECA08460045651C /* Assets.xcassets in Resources */,
+				5C79285B1ECA08460045651C /* Main.storyboard in Resources */,
+				5C79286F1ECA67490045651C /* mapstogpx20170515_224601.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C79284E1ECA08460045651C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C79286D1ECA41720045651C /* VCMapView.swift in Sources */,
+				5C7928581ECA08460045651C /* ViewController.swift in Sources */,
+				5C79286B1ECA3CC40045651C /* Beaches.swift in Sources */,
+				5C7928561ECA08460045651C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C7928591ECA08460045651C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C79285A1ECA08460045651C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C79285E1ECA08460045651C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C79285F1ECA08460045651C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C7928621ECA08460045651C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C7928631ECA08460045651C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C7928651ECA08460045651C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lightbeam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trishasuri.com.lightbeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C7928661ECA08460045651C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lightbeam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trishasuri.com.lightbeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C79284D1ECA08460045651C /* Build configuration list for PBXProject "lightbeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C7928621ECA08460045651C /* Debug */,
+				5C7928631ECA08460045651C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C7928641ECA08460045651C /* Build configuration list for PBXNativeTarget "lightbeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C7928651ECA08460045651C /* Debug */,
+				5C7928661ECA08460045651C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C79284A1ECA08460045651C /* Project object */;
+}
